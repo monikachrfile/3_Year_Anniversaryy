@@ -1,0 +1,145 @@
+.introduction {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	background: #8B0000;
+}
+img.Intro_pic{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+	border: 3px solid red;
+	border-radius: 10px;
+}
+h2.Intro_text{
+    font-size: 3em;
+    top: 50%;
+	font-family: cursive;
+	text-shadow:  3px 3px red, 1px 1px 4px black;
+	/*text-shadow: 3px 3px 0px red, 100px 100px 100px black; /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+   
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+h1.Title{
+	font-size: 43px;
+	text-shadow: 2px 2px black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2.Poem_Title{
+    text-decoration: underline;
+	font-size: 39px;
+	text-shadow: 1px 1px black;
+}
+hr.line{
+	color: #e75480;
+	border: none;
+	height: 4px;
+	/* Set the hr color */ /* old IE */
+	background-color: pink; /* Modern Browsers */
+
+}
+h1.Left_Pic_Title{
+	float: left;
+	margin-left: 70px;
+	text-decoration: underline;
+	color:hotpink;
+	/*color: #9b111e; ruby*/
+	text-shadow: 1px 1px black;
+	font-weight:bolder;
+}
+h1.Right_Pic_Title{
+	float: right;
+	margin-right: 70px;
+	text-decoration: underline;
+	color:hotpink;
+	/*color: #9b111e; ruby*/
+	text-shadow: 1px 1px black;
+	font-weight:bolder;
+}
+img.Left_Picture{
+	float: left;
+	margin-left: 10px;
+	border: 3px solid darkred;
+	border-radius: 10px;
+}
+img.Right_Picture{
+	float: right;
+	margin-right: 30px;
+	/*padding: 5px;*/
+	border: 3px solid darkred;
+	border-radius: 10px;
+}
+.content_background{
+    border: 6px solid pink;
+    background: white;
+    /*For fitting/wrapping around content in this backround
+    width: 100%;
+    height: 100%;*/
+    height: 520px;
+    width: 810px;
+    margin-left: auto;
+    margin-right: auto;
+	border-radius: 10px;
+    /*margin-top: 15px;*/
+    background-repeat: repeat-y;
+}
+/*canvas { 
+	height: 100vh; 
+	width: 100vw; 
+	display: block;
+}*/
+@font-face { font-family: Blenda-script; src: url('Blenda-Script.otf'); } 
+@font-face { font-family: Cookie-Regular; src: url('Cookie-Regular.ttf'); } 
+.Poem{
+	color:red;
+	font-size: 20px;
+	font-family: cursive:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	/*font-family: Blenda-script;*/
+	text-shadow: 1px 1px black;
+	line-height: 1.4;
+}
+span.love{
+	text-shadow: 1px 1px red;
+	color: hotpink;
+}
+span.spacing{
+	line-height: 2.0;
+}
+
+
+/*hearts*/
+@import url("https://fonts.googleapis.com/css?family=Play:400,700&subset=latin,latin-ext");
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		.container-sprin {
+			background-color: #0093d8;
+			/*background: -moz-linear-gradient(top, #0093d8, #fff);
+			background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #fff),color-stop(1, #0093d8)); */
+			background: linear-gradient(to bottom, rgb(212, 1, 1) 0%,rgb(255, 105, 180) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			-webkit-box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+			box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+			color: #f8f9fa;
+			width: 100%;
+			/*height: 100%;*/
+			top: 0;
+			left: 0;
+			box-shadow: 0 10px 10px red;
+		}
+		canvas[data-type="my.context2d"] {
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 9999;
+			pointer-events: none;
+		}
+/** { margin:0; padding:0; } /* to remove the top and left whitespace */
+
+/*html, body { width:100%; height:100%; } /* just to be sure these are full screen*/
+
+/*canvas { display:block; }*/ /* To remove the scrollbars */
